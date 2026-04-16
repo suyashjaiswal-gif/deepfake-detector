@@ -1,6 +1,7 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
+from download_model import download_model
 from model import load_model, predict, DEVICE  # add DEVICE here
 import os
 
