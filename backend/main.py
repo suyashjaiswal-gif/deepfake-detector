@@ -13,6 +13,7 @@ model = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global model
+    download_model()  # ← add this line
     if os.path.exists(MODEL_PATH):
         print("Loading model...")
         model = load_model(MODEL_PATH)
