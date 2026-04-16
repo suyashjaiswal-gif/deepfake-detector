@@ -4,8 +4,6 @@ from contextlib import asynccontextmanager
 from download_model import download_model
 from model import load_model, predict, DEVICE  # add DEVICE here
 import os
-
-from model import load_model, predict
 from face_crop import crop_face
 
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "weights", "deepfake_model.pth")
