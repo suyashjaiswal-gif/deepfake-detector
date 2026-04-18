@@ -2,7 +2,7 @@
 
 A deep learning system that classifies face images as real or AI-generated. Built with EfficientNet-B4, served via a FastAPI backend, and accessible through a Next.js web interface.
 
-**Live demo:** [[deepfake-detector.vercel.app](https://deepfake-detector-gray.vercel.app/)](https://deepfake-detector.vercel.app)
+**Live demo:** [[deepfake-detector.vercel.app](https://deepfake-detector-gray.vercel.app/)]
 
 ---
 
